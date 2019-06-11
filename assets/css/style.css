@@ -1,0 +1,34 @@
+body{
+    background-color: white;
+    background-image: url("../images/tokusatsu.jpg");
+}
+
+.selector{
+    width: 100px;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 12px;
+    float: left;
+    color:white;
+    background-color: crimson;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#justice{
+    border: solid crimson;
+    width: 300px;
+    padding: 5px;
+    margin-left: 20px
+}
+
+h1{
+    color:crimson;
+    font-weight: bolder;
+    font-size: 60px
+}
+
+h2{
+    margin-top: 10px;
+    color: crimson;
+}
