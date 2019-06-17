@@ -1,0 +1,41 @@
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 0.75rem;
+    color: black;
+}
+
+.albumBox {
+    display: inline-block;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+#bandInput{
+    background-color: white;
+    border-radius: 0.25rem;
+}
+
+#results{
+    border-radius: 0.5rem;
+    background-color: white;
+    height: 85%;
+    padding: 1%;
+}
+
+#recentAlbums {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+#lastFM img{
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
