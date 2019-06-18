@@ -30,6 +30,12 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        #map {
+            height: 400px;
+            width: 100%;
+            margin: 0 auto;
+        }
+
         .jumbotron {
             background-image: url("assets/pics/200w.gif");
             background-color: #D91A60;
@@ -42,19 +48,15 @@
 
         .jumbotron h1{
             position: relative;
-            left: 25%;
+            left: 50%;
         }
 
         .jumbotron p {
             position: relative;
-            left: 27.5%;
+            left: 52.5%;
         }
     </style>
-    <!-- Bootstrap core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> (not needed) -->
-    <!-- Material Design Bootstrap -->
-    <!-- <link href="assets/styles/mdb.min.css" rel="stylesheet"> -->
-    <!-- Your custom styles (optional) -->
+
 </head>
 
 <body>
@@ -110,6 +112,7 @@
                     </div>
                     <div class="col-6 justify-content-center" id="recentAlbums">
                         <h4>Recent Albums</h4>
+                        <div id="albums"></div>
                     </div>
                 </div>
             </div>

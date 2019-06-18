@@ -30,7 +30,15 @@ var searchForm = $("#searchForm");
 var jumbotron = $("#jumbotron");
 
 function LinkFormatter(value, row, index) {
-  return "<a href='https://www.google.com/search?q="+value+"' target='_blank'>"+value+"</a>";
+  var tableSearch = $("<div id='tableSearch'>"+value+"</div>");
+  tableSearch.on("click", function(){
+    lastGet(value);
+    photoGet(value);
+    discGet(value);
+    $("#lastFM").empty();
+    $("#albums").empty();
+  });
+  return tableSearch;
 }
 
 function lastGet(artist) {
@@ -72,7 +80,7 @@ function discGet(artist) {
     var title4 = $("<p class='title'>"+resultsGet[3].title+"</p>");
     var title5 = $("<p class='title'>"+resultsGet[4].title+"</p>");
     var title6 = $("<p class='title'>"+resultsGet[5].title+"</p>");
-    $("#recentAlbums").append(
+    $("#albums").append(
       $("<div class='albumBox'>").append(img1, title1),
       $("<div class='albumBox'>").append(img2, title2),
       $("<div class='albumBox'>").append(img3, title3),
@@ -151,5 +159,5 @@ database.ref().on("value", function(snapshot){
     )
   );
   $("#lastFM").empty();
-  $("#recentAlbums").empty();
+  $("#albums").empty();
 });

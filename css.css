@@ -4,6 +4,15 @@
     margin: 0 auto;
 }
 
+
+body {
+    /* color change */
+    background-color:#b71c1c;  
+    background: repeating-radial-gradient(black, #D5D2D4 10%, RED 15%);
+
+}
+
+
 .title {
     font-size: 0.75rem;
     color: black;
@@ -38,4 +47,13 @@
     height: 200px;
     width: 100%;
     object-fit: contain;
+}
+
+#searchButton {
+    background-color: red;
+    color: black;
+} 
+#newSearchButton {
+    background-color: red;
+    color: black;
 }
