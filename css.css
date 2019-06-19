@@ -92,10 +92,16 @@ body {
 
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px){
 
 body {
     max-width: 460px;
+}
+
+.col-4 {
+
+    width: 65%;
+    float: left;
 }
 
 
