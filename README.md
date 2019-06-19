@@ -47,6 +47,8 @@ Pain points:
 tweak the flexboxes
 **ACHEIEVED** MVP Status 6:30PM 6/18
 **FIXED** Spinning seatch button no longer changes size
-"Crocodiles effect" in searches
+**GREATLY REDUCED** "Crocodiles effect" in searches
 Spiral out of vortex effect
-
+**FIXED** Added Favicon
+**FIXED** Marketplace spacing
+Work on the mobile problem

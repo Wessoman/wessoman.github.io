@@ -36,7 +36,7 @@ body {
     padding: 1%;
 }
 
-#albums {
+#recentAlbums {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -92,4 +92,11 @@ body {
 
 } */
 
+@media screen and (max-width: 480px) {
 
+body {
+    max-width: 460px;
+}
+
+
+}
