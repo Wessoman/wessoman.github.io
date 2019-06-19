@@ -39,10 +39,14 @@ Kaqui (kah koo ee) is a silly way of spelling "Kakui~", which means "Oh how cool
 Pain points:
 
 **FIXED** Uploading ed's code
-work on HTML and children after ed's uploading
-We need BandsInTown's API
-We may abandon the Discogs marketplace
-Check on Ebay's API
-Adding images to the band boxes
+**FIXED** work on HTML and children after ed's uploading
+**FIXED** We need BandsInTown's API
+**FIXED** We may abandon the Discogs marketplace
+**FIXED** Check on Ebay's API
+**FIXED** Adding images to the band boxes
 tweak the flexboxes
+**ACHEIEVED** MVP Status 6:30PM 6/18
+**FIXED** Spinning seatch button no longer changes size
+"Crocodiles effect" in searches
+Spiral out of vortex effect
 
