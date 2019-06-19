@@ -29,13 +29,11 @@
             background-repeat: repeat;
             font-family: 'Open Sans', sans-serif;
         }
-
         #map {
             height: 400px;
             width: 100%;
             margin: 0 auto;
         }
-
         .jumbotron {
             background-image: url("assets/pics/200w.gif");
             background-color: #D91A60;
@@ -45,22 +43,12 @@
             text-shadow: 1.5px 1px black;
             font-weight: bolder;
         }
-
-        .jumbotron h1{
-            position: relative;
-            left: 50%;
-        }
-
-        .jumbotron p {
-            position: relative;
-            left: 52.5%;
-        }
     </style>
 
 </head>
 
 <body>
-    <div class="jumbotron" id="jumbotron">
+    <div class="jumbotron text-center" id="jumbotron">
         <h1 class="display-3">Kaqui!</h1>
         <p class="lead">Find your music</p>
     </div>
@@ -104,17 +92,18 @@
         </div>
         <br>
         <div class="row">
-            <div class="col">
-                <div class="row align-content-self">
-                    <div class="col-2"></div>
-                    <div class="col-4 justify-content-center" id="marketplace">
-                        <h4>Marketplace</h4>
-                    </div>
-                    <div class="col-6 justify-content-center" id="recentAlbums">
-                        <h4>Recent Albums</h4>
-                        <div id="albums"></div>
-                    </div>
-                </div>
+            <div class="col-2"></div>
+            <div class="col-10 justify-content-left" id="marketplace">
+                <h4>Marketplace</h4>
+                <div class="card-deck" id="market"></div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10 justify-content-left" id="recentAlbums">
+                <h4>Recent Albums</h4>
+                <div id="albums"></div>
             </div>
         </div>
         <br>

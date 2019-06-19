@@ -30,7 +30,7 @@ As an internet influencer, I want to know what good bands are playing in town so
 
 As a record collector, I want to know where my favorite band is playing so I can purchase tour exclusive merchandise and recordings.
 
-As an urbanite hipster, I want to know where my favorite bands are playing and buy their music so I can enjoy an entertaining evening with friends.
+As an urbanite hipster, I want wo know where my favorite bands are playing and buy their music so I can enjoy an entertaining evening with friends.
 
 
 Notes:
