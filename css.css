@@ -1,15 +1,23 @@
 #map {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin: 0 auto;
 }
 
 
 body {
-    /* color change */
-    background-color:#b71c1c;  
-    background: repeating-radial-gradient(black, #D5D2D4 10%, RED 15%);
+    background-color: #38261F;
+    font-family: 'Open Sans', sans-serif;
+}
 
+.jumbotron {
+    /* background-image: url("assets/pics/200w.gif"); */
+    color: #C3C231;
+    background-color: #38261F;
+    text-decoration: underline;
+    text-shadow: 1.5px 1px black;
+    font-weight: bolder;
+    margin: 0;
 }
 
 
@@ -36,11 +44,19 @@ body {
     padding: 1%;
 }
 
-#recentAlbums {
+#albums {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-content: space-between;
+}
+
+#marketRow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    margin: 0 auto;
 }
 
 #lastFM img{
@@ -50,18 +66,19 @@ body {
 }
 
 #searchButton {
-    background-color: red;
-    color: black;
+    background-color: #3C4185;
+    color: white;
 } 
 #newSearchButton {
-    background-color: red;
-    color: black;
+    background-color: #3C4185;
+    color: white;
 }
 
+/* 
 .btn:hover{
     background-color: #FFCCCC;
-    /* width: 200px;
-    height: 200px; */
+    width: 200px;
+    height: 200px;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
@@ -81,28 +98,13 @@ body {
     border-style: solid;
     border-width: 1px;
     display: block;
-    /* width: 100px;
-    height: 100px; */
+    width: 100px;
+    height: 100px;
     background-color: #0000FF;
     -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
     transition: background-color 2s, transform 2s;
     transform: rotate(360deg);
-}
-/* .newSearchButton{
-
 } */
 
-@media screen and (max-width: 480px){
-
-body {
-    max-width: 460px;
-}
-
-.col-4 {
-
-    width: 65%;
-    float: left;
-}
 
 
-}
