@@ -390,6 +390,7 @@ $("#searchButton").on("click", function(event){
   results.removeClass("d-none");
   searchForm.addClass("d-none");
   $("#searchButton").addClass("d-none");
+
   artist = $("#bandInput").val();
   if((artist === undefined || artist === null)||(artist == "undefined" || artist == "null")){
     $("#firstRow").addClass("d-none");
@@ -397,7 +398,7 @@ $("#searchButton").on("click", function(event){
     $("#thirdRow").addClass("d-none");
     $("#noticeMeSenpai").removeClass("d-none");
   }else{
-    $("body").attr("style", "background-image: linear-gradient(#38261F, #DE987A);");
+    $("body").attr("style", "background-image: linear-gradient(#FEFAF7, #A4A1B3);");
     photoGet(artist);
     lastGet(artist);
     discGet(artist);
@@ -453,6 +454,8 @@ database.ref().on("value", function(snapshot){
   }
 }), function(errorObject){
   console.log("Read failed: "+errorObject.code);
-  results.addClass("d-none");
+  $("#firstRow").addClass("d-none");
+  $("#secondRow").addClass("d-none");
+  $("#thirdRow").addClass("d-none");
   $("#noticeMeSenpai").removeClass("d-none");
 };
